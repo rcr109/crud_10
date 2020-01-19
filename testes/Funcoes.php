@@ -9,7 +9,7 @@ function StatusFuncao(){
 
 function Cumprimenta(){
     $nome = "Castilho";
-    echo "Olá. ".$nome."<br>";
+    echo "<br>Olá. ".$nome."<br>";
 }
 
 ?>
