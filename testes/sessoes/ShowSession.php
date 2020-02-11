@@ -9,4 +9,7 @@ echo '<br>';
 echo 'Session status => '.session_status();
 echo '<br>';
 echo 'Session name => '.session_name();
+echo '<br>';
+echo 'Session save path => '.session_save_path();
+echo '<br>';
 ?>

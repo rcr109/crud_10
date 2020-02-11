@@ -9,7 +9,7 @@
 // o include tenta executar mesmo que essas condições não sejam satisfeitas, 
 // além de permitir que se traga arquivos de outros sites
 require_once "Funcoes.php";
-require_once "../Funcoes.php";
+require_once "../funcoes/Funcoes.php";
 
 echo  Soma(2,3);
 Cumprimenta();

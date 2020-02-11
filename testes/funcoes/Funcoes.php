@@ -12,4 +12,13 @@ function Cumprimenta(){
     echo "<br>Olá. ".$nome."<br>";
 }
 
+
+
+function RetornaArgumentos(){
+    $argumentos = func_get_args(); // função que pega os argumentos passados de maneira dinâmica, bom para sobrecarga!
+    return $argumentos;
+}
+
+var_dump(RetornaArgumentos("Bom dia",10));
+
 ?>
