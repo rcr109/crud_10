@@ -103,6 +103,7 @@ function ImprimeDiaSemana ($ativo){
     }
 }
 
+//EXEMPLO FOR
 function Contador($intervalo, $numloops, $ativo){
     if ($ativo==1){
         $vezes = 0;
@@ -119,6 +120,7 @@ function Contador($intervalo, $numloops, $ativo){
     }
 }
 
+//EXEMPLO CRIAÇÃO DINÂMICA DE UM SELECT
 function GeraSelect($intervalo,$numloops,$ativo){
     if ($ativo==1){
         echo "Nome Função ==> GeraSelect() linha 122 = Exemplo de FOR e CRIAÇÃO DINÂMICA DE UM SELECT<br>";
@@ -132,6 +134,7 @@ function GeraSelect($intervalo,$numloops,$ativo){
     }
 }
 
+//EXEMPLO FOREACH
 function ListaMeses($nummeses, $ativo){
     if ($ativo==1){
         echo "Nome Função ==> ListaMeses() linha 135 = Exemplo do FOREACH<br>";
@@ -148,6 +151,7 @@ function ListaMeses($nummeses, $ativo){
 
 }
 
+//EXEMPLO WHILE
 function ImprimeAteAchar($ativo){
     if ($ativo){
         echo "Nome Função ==> ImprimeAteAchar() linha 151 = Exemplo do WHILE<br>";
