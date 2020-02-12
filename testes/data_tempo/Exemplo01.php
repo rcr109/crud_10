@@ -10,7 +10,7 @@ echo time();
 echo '<br><br><br>';
 
 
-echo date('d/m/Y H:i:s',1581517560);
+echo date('d/m/Y H:i:s',1581517560); // timestamp obtivo com o echo time() acima
 echo '<br>It was an '.date('l',1581517560);
 echo '<br><br><br>';
 
